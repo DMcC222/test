@@ -28,3 +28,5 @@ plot <- ggpairs(iris[,1:4], aes(color=Species))
 pdf("plot.pdf", useDingbats=FALSE)
 plot
 dev.off()
+
+## Looks like I've added a few changes
